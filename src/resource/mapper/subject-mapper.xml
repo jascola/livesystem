@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespcae原来指命名空间 -->
+<!-- 现在namespace指要映射给哪个接口 -->
+<mapper namespace="dao.SubjectDao">
+
+	
+	<!-- <resultMap type="entity.Subject" id="subject">
+	
+	<id property="cId" column="cId"/>
+	<result property="tName" column="tName"/>
+	<result property="cOnline" column="cOnline"/>
+	<result property="cShare" column="cShare"/>
+	<result property="cFlowers" column="cFlowers"/>
+	
+	<association property="teacher" javaType="entity.Teacher">
+	
+		<id property="tId" column="tId"/>
+		<result property="tName" column="tName"/>
+	</association>
+	</resultMap> -->
+	
+	
+	
+	
+	<select id="queryAll" resultType="entity.Subject">
+		select * from class 
+	</select>
+
+<!-- 	<insert id="insert_returnId" parameterType="entity.Choice">
+		insert into
+		choice(SubjectId,Content,IsMulti)
+		values(#{subjectId},#{content},#{isMulti})
+	</insert> -->
+	
+	<insert id="insert" parameterType="entity.Subject" useGeneratedKeys="true" keyColumn="cId" keyProperty="cId">
+		insert into
+		class(cId,tid,cName,cOnline,cShare,cFlowers)
+		values(#{cId},#{tea.tId},#{cName},#{cOnline},#{cShare},#{cFlowers})
+	</insert>
+
+	<!-- <update id="update" parameterType="entity.ChoiceQueryDto">
+		update choice set
+		SubjectId=#{subjectId},Content=#{content}
+		where ChoiceID=#{choiceId}
+	</update> -->
+
+	<delete id="delete" parameterType="java.lang.Integer">
+		delete from class where cId=#{cId}
+	</delete>
+
+
+	<select id="queryById" parameterType="java.lang.Integer"
+		resultType="entity.Subject">
+		select * from class where cId=#{cId}
+	</select>
+	
+</mapper>

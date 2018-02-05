@@ -1,0 +1,245 @@
+body{
+	overflow:hidden;
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/*顶部样式*/
+.header{
+	position:fixed;
+	left:0px;
+	top:0px;
+	width:1366px;
+	height:50px;
+	background-color:#f2f2f2;
+	border-bottom:1px solid #d9d9d9;
+}
+
+
+
+/*按钮样式*/
+.select_btn1{
+	position:fixed;
+	left:50px;
+	top:4px;
+	width:80px;
+	height:40px;
+	display:inline;
+	background-color:lightgray;
+	line-height:40px;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid white;
+	border-radius:5px;
+}
+.select_btn2{
+	position:fixed;
+	left:180px;
+	top:4px;
+	width:80px;
+	height:40px;
+	display:inline;
+	background-color:lightgray;
+	line-height:40px;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid white;
+	border-radius:5px;
+}
+.select_btn3{
+	position:fixed;
+	left:310px;
+	top:4px;
+	width:80px;
+	height:40px;
+	display:inline;
+	background-color:lightgray;
+	line-height:40px;
+	text-align:center;
+	cursor:pointer;
+	border:1px solid white;
+	border-radius:5px;
+}
+
+
+
+/*搜索div*/
+.search_div{
+	position:fixed;
+	top:4px;
+	left:440px;
+	width:500px;
+	height:40px;
+	background-color:lightgray;
+	line-height:35px;
+	display:inline;
+	border-radius:5px;
+}
+
+/*搜索输入框*/
+.search_input_textBox{
+	position:relative;
+	left:3px;
+	width:400px;
+	height:35px;
+	outline:none;
+	border:none;
+	background-color:lightgray;
+}
+
+/*搜索按钮样式*/
+.search_btn{
+	position:relative;
+	width:90px;
+	height:35px;
+	outline:none;
+	border:none;
+	cursor:pointer;
+	font-size:17px;
+	background-color:lightgray;
+}
+
+
+
+/*操作按钮*/
+.action_btn1{
+	position:fixed;
+	left:1000px;
+	top:4px;
+	width:150px;
+	height:40px;
+	line-height:40px;
+	background-color:lightgray;
+	text-align:center;
+	display:inline;
+	cursor:pointer;
+	border:1px solid white;
+	border-radius:5px;
+}
+.action_btn2{
+	position:fixed;
+	left:1200px;
+	top:4px;
+	width:80px;
+	height:40px;
+	line-height:40px;
+	background-color:lightgray;
+	text-align:center;
+	display:inline;
+	cursor:pointer;
+	border:1px solid white;
+	border-radius:5px;
+}
+
+
+
+/*内容位置约束框*/
+.detail_div_out{
+	position:absolute;
+	top:60px;
+	left:100px;
+	width:1166px;
+	height:580px;
+	background-color:lightgray;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+
+/*课程/老师/学生div*/
+.course_teacher_student_div{
+	position:relative;
+	background-color:white;
+	width:1000px;
+	height:200px;
+	text-align:left;
+	overflow:hidden;
+}
+
+
+/*课程/老师/学生 图片*/
+.course_teacher_student_img{
+	position:relative;
+	vertical-align:top;
+	display:inline;
+	width:400px;
+	height:200px;
+}
+
+
+/*课程/老师/学生 名称*/
+.course_teacher_student_introduce_div{
+	position:relative;
+	top:-200px;
+	left:430px;
+	width:400px;
+	height:200px;
+}
+
+/*课程/老师/学生 操作*/
+.course_teacher_student_action_div{
+	position:relative;
+	top:-400px;
+	left:860px;
+	width:140px;
+	height:200px;
+	text-align:center;
+}
+
+
+
+/*删除和查看详细按钮*/
+.delete_lookDetail_btn{
+	position:relative;
+	top:35px;
+	border:1px solid lightgray;
+	width:120px;
+	height:40px;
+	border-radius:5px;
+	line-height:40px;
+	cursor:pointer;
+}
+
+
+
+/*新建*/
+.new_div1{
+	position:absolute;
+	left:200px;
+	top:10px;
+	width:120px;
+	height:40px;
+	border:1px solid white;
+	border-radius:5px;
+	line-height:40px;
+	cursor:pointer;
+}
+.new_div2{
+	position:absolute;
+	left:520px;
+	top:10px;
+	width:120px;
+	height:40px;
+	border:1px solid white;
+	border-radius:5px;
+	line-height:40px;
+	cursor:pointer;
+}
+.new_div3{
+	position:absolute;
+	left:840px;
+	top:10px;
+	width:120px;
+	height:40px;
+	border:1px solid white;
+	border-radius:5px;
+	line-height:40px;
+	cursor:pointer;
+}
+
+
+

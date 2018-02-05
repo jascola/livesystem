@@ -1,0 +1,256 @@
+﻿.broadcast_div {
+    position:relative;
+    left:-10px;
+    width:1369px;
+    height:600px;
+    background-image:url("/static/image/broad_bg.jpg");
+    background-size:100%;
+    text-align:center;
+}
+
+
+/*整个直播的框*/
+.broadcast_div_out {
+    position:relative;
+    top:70px;
+    background-color:gray;
+    width:1100px;
+    height:500px;
+}
+
+
+
+/*视频框*/
+.video {
+    position:absolute;
+    top:10px;
+    left:10px;
+    background-color:black;
+    width:700px;
+    height:480px;
+}
+
+
+
+/*资源框*/
+.source {
+    position:absolute;
+    top:10px;
+    left:720px;
+    background-color:black;
+    width:370px;
+    height:480px;
+}
+
+
+b {
+    color:white;
+}
+
+
+
+/*搜索框*/
+.search_textbox_div {
+    position:relative;
+    border-top:1px solid #80ffbf;
+    border-bottom:1px solid #80ffbf;
+    height:27px;
+    line-height:22px;
+}
+
+
+/*搜索框央视*/
+.search_text {
+    position:relative;
+    outline:none;
+    border:none;
+    height:20px;
+    border-radius:3px;
+    width:280px;
+    background-color:black;
+    color:white;
+}
+
+
+/*搜搜按钮*/
+.search_btn {
+    position:relative;
+    top:1px;
+    outline:none;
+    border:none;
+    height:20px;
+    border-radius:3px;
+    background-color:black;
+    width:60px;
+    color:white;
+    cursor:pointer;
+}
+
+
+
+/*选择按钮位置*/
+.select_btn_div {
+    position:relative;
+    height:30px;
+    line-height:27px;
+    border-bottom:1px solid #80ffbf;
+}
+
+
+
+/*选择按钮样式*/
+.select_btn {
+    position:relative;
+    outline:none;
+    border:none;
+    height:25px;
+    width:80px;
+    cursor:pointer;
+    background-color:black;
+    color:white;
+}
+
+
+
+
+/*问题咨询框*/
+.ask_div {
+    position:relative;
+    top:10px;
+    width:350px;
+    height:370px;
+}
+
+
+
+/*内容框*/
+.detail_ask_div {
+    position:relative;
+    width:340px;
+    height:344px;
+    overflow-x:hidden;
+    overflow-y:auto;
+    color:white;
+    text-align:left;
+}
+
+
+/*提问框*/
+.div_ask_out {
+    position:absolute;
+    bottom:0px;
+    width:100%;
+}
+
+
+
+
+/*提问框输入*/
+.ask_textbox_input {
+    position:relative;
+    outline:none;
+    border:none;
+    border-radius:3px;
+    height:20px;
+    width:260px;
+}
+
+
+
+/*提问按钮*/
+.ask_btn {
+    position:relative;
+    top:1px;
+    border:none;
+    outline:none;
+    cursor:pointer;
+    height:22px;
+    width:65px;
+    border-radius:3px;
+}
+
+
+/*回答者名称*/
+.name_ask {
+    font-size:17px;
+    font-weight:900;
+    color:red;
+}
+
+/*回答者内容*/
+.detail_ask_label {
+    font-size:13px;
+}
+
+
+
+
+/*直播列表外框约束*/
+.broadcast_list_div_out {
+    position:relative;
+    top:10px;
+    height:370px;
+    width:350px;
+    color:white;
+    overflow-x:hidden;
+    overflow-y:auto;
+    text-align:left;
+}
+
+
+
+/*播放按钮*/
+.bofang_div {
+    position:absolute;
+    top:40px;
+    right:20px;
+    border:1px solid #80ffbf;
+    height:25px;
+    width:100px;
+    cursor:pointer;
+    border-radius:3px;
+    color:white;
+}
+
+
+
+/*单个视频div样式*/
+.video_div {
+    position:relative;
+    cursor:pointer;
+    overflow:hidden;
+    height:30px;
+    line-height:30px;
+}
+
+
+
+/*资源列表样式*/
+.file_down_btn {
+    position:relative;
+    border:none;
+    background-color:black;
+    color:white;
+    cursor:pointer;
+    outline:none;
+}
+
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+/* 滚动槽 */
+::-webkit-scrollbar-track {    
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);    
+    border-radius: 10px;
+}
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {    
+    border-radius: 10px;    
+    background: rgba(0,0,0,0.1);    
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {    
+    background: rgba(255,0,0,0.4);
+}

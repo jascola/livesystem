@@ -1,0 +1,100 @@
+body {
+    overflow:hidden;
+    background-image:url('/livesystem/resources/image/背景.gif');
+}
+
+/*手机登录账号*/
+.divPhone_account {
+    width:300px;
+    height:50px;
+    border:1px solid lightgray;
+    line-height:45px;
+}
+
+
+/*手机登录密码*/
+.divPhone_Password {
+    width:300px;
+    height:50px;
+    border:1px solid lightgray;
+    border-top:none;
+    line-height:45px;
+}
+
+
+/*学号登录中间样式*/
+.divSno_center {
+    width:300px;
+    height:50px;
+    border:1px solid lightgray;
+    border-top:none;
+    line-height:45px;
+}
+
+
+/*文本输入框样式*/
+.input_textBox {
+    width:280px;
+    height:30px;
+    outline:none;
+    border:none;
+    font-size:16px;
+}
+
+
+/*验证码输入文本框*/
+.input_textBox_identify {
+    width:180px;
+    height:30px;
+    outline:none;
+    border:none;
+    font-size:16px;
+}
+
+/*验证码样式*/
+.btn_identify {
+    height:40px;
+    width:100px;
+    outline:none;
+    border:none;
+    font-size:large;
+}
+
+
+label {
+    font-size:20px;
+    cursor:pointer;
+    color:gray;
+}
+
+
+/*选中样式*/
+.active_select {
+    border-bottom:2px solid blue;
+    color:blue;
+}
+
+
+/*按钮样式*/
+.btn {
+    border:none;
+    border-radius:5px;
+    background-color:blue;
+    color:white;
+    font-size:large;
+    width:300px;
+    height:40px;
+}
+
+
+a:link {
+    text-decoration:none;
+    color:gray;
+    font-size:14px;
+}
+
+a:visited {
+    text-decoration:none;
+    color:gray;
+    font-size:14px;
+}

@@ -1,0 +1,97 @@
+﻿body {
+    overflow-x:hidden;
+}
+
+
+/*顶部*/
+.div_header {
+    position:fixed;
+    top:0px;
+    left:0px;
+    width:1366px;
+    border-width:0 0 1px 0;
+    border-style:outset;
+    border-color:#e5ffff;
+    height:50px;
+    z-index:2008;
+    background-color:white;
+}
+
+/*搜索外框*/
+.div_search {
+    position:relative;
+    top:10px;
+    left:100px;
+    border:none;
+    border-radius:15px;
+    background-color:lightgray;
+    height:30px;
+    width:300px;
+    color:white;
+}
+
+
+/*搜索文本框*/
+.input_search {
+    position:relative;
+    left:20px;
+    top:-5px;
+    width:230px;
+    outline:none;
+    border:none;
+    background-color:lightgray;
+}
+
+
+/*搜索图片按钮*/
+.img_search_btn {
+    position:relative;
+    left:30px;
+    top:3px;
+    height:25px;
+}
+
+a:link {
+    text-decoration:none;
+    font-size:20px;
+    color: #4d94ff;
+}
+
+/*操作按钮位置*/
+.btn_action_location {
+    position:relative;
+    top:-20px;
+    left:1000px;
+}
+
+
+/*中间介绍*/
+.div_introduce {
+    position:relative;
+    top:43px;
+    left:-8px;
+    width:1367px;
+    background-color:red;
+    height:450px;
+}
+
+
+/*底部*/
+.div_footer {
+    position:relative;
+    top:-4px;
+    left:-7px;
+    width:1367px;
+    background-color:#3333ff;
+    height:120px;
+    color:white;
+}
+
+
+b {
+    font-size:20px;
+}
+
+label {
+    cursor:pointer;
+}

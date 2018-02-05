@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!-- namespcae原来指命名空间 -->
+<!-- 现在namespace指要映射给哪个接口 -->
+<mapper namespace="dao.C_StudentDao">
+	
+<!-- 	<select id="query" resultType="entity.User" parameterType="entity.UserQueryDto">
+		select * from user
+		<where>
+			<if test="userName!=null and userName !=''">
+				and UserName like '%${userName}%'
+			</if>
+			<if test="identity!=null">
+				and Identity = #{identity}
+			</if>
+		</where>
+	</select> -->
+
+	<select id="queryAll" resultType="entity.C_student">
+		select * from c_student 
+	</select>
+
+	<insert id="insert" parameterType="entity.C_student">
+		insert into
+		c_student(cId,sId)
+		values(#{sub.cId},#{student.sId})
+	</insert>
+
+
+	<select id="queryBysId" parameterType="java.lang.Integer"
+		resultType="entity.C_student">
+		select * from c_student where sId=#{student.sId}
+	</select>
+	
+	<select id="queryBytId" parameterType="java.lang.Integer"
+		resultType="entity.C_student">
+		select * from c_student where tId=#{sub.tId}
+	</select>
+
+</mapper>
